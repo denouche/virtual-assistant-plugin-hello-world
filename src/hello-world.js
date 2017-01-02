@@ -12,7 +12,6 @@ class HelloWorld extends AssistantFeature {
 
     handle(message, context) {
         super.handle(message, context);
-        console.log(this.context, SlackService.getDataStore().getUserById(this.context.userId))
         let answer = 'Hello World, how are you ' + SlackService.getDataStore().getUserById(this.context.userId).name;
         this.send(answer);
     }
