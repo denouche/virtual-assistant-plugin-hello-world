@@ -10,9 +10,13 @@ class HelloWorld extends AssistantFeature {
         ];
     }
 
+    static getDescription() {
+        return null;
+    }
+
     handle(message, context) {
         super.handle(message, context);
-        let answer = 'Hello World, how are you ' + SlackService.getDataStore().getUserById(this.context.userId).name + '?';
+        let answer = 'Bonjour ' + SlackService.getDataStore().getUserById(this.context.userId).name + ', que puis-je pour vous ?\nPour savoir ce que je peux faire pour vous, dites "aide" ou "help"';
         this.send(answer);
     }
 
