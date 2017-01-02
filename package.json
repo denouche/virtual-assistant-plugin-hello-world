@@ -4,7 +4,7 @@
   "description": "This is a hello world plugin for virtal-assistant",
   "main": "index.js",
   "dependencies": {
-    "virtual-assistant": "^0.4.0"
+    "virtual-assistant": "^0.5.0"
   },
   "devDependencies": {
     "standard-version": "^4.0.0"
