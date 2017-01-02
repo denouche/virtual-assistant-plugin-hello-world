@@ -1,0 +1,21 @@
+{
+  "name": "virtual-assistant-plugin-hello-world",
+  "version": "0.1.0",
+  "description": "This is a hello world plugin for virtal-assistant",
+  "main": "index.js",
+  "dependencies": {
+    "virtual-assistant": "^0.3.1"
+  },
+  "devDependencies": {
+    "standard-version": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:denouche/virtual-assistant-plugin-hello-world.git"
+  },
+  "author": "Antoine Leveugle",
+  "license": "ISC",
+  "scripts": {
+    "release": "standard-version && git push --follow-tags origin HEAD && npm publish"
+  }
+}
