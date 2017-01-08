@@ -4,7 +4,7 @@
   "description": "This is a hello world plugin for your chatbot, using virtual-assistant library",
   "main": "index.js",
   "dependencies": {
-    "virtual-assistant": ">=0.9.0"
+    "virtual-assistant": ">=0.10.0"
   },
   "devDependencies": {
     "standard-version": "^4.0.0"
