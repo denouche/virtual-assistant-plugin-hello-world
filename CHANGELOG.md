@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.0"></a>
+# [0.3.0](https://github.com/denouche/virtual-assistant-plugin-hello-world/compare/v0.2.1...v0.3.0) (2017-01-08)
+
+
+### Features
+
+* remove super.handle call, upgrade dependency ([c7a175f](https://github.com/denouche/virtual-assistant-plugin-hello-world/commit/c7a175f))
+
+
+
 <a name="0.2.1"></a>
 ## [0.2.1](https://github.com/denouche/virtual-assistant-plugin-hello-world/compare/v0.2.0...v0.2.1) (2017-01-03)
 

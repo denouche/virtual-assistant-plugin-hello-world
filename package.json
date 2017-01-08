@@ -1,6 +1,6 @@
 {
   "name": "virtual-assistant-plugin-hello-world",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "This is a hello world plugin for your chatbot, using virtual-assistant library",
   "main": "index.js",
   "dependencies": {
