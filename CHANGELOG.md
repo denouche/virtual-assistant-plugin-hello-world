@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.5.0"></a>
+# [0.5.0](https://github.com/denouche/virtual-assistant-plugin-hello-world/compare/v0.4.0...v0.5.0) (2017-01-10)
+
+
+### Features
+
+* remove adherence between features and slack service, use the interface field to get informations ([7a649c1](https://github.com/denouche/virtual-assistant-plugin-hello-world/commit/7a649c1))
+
+
+
 <a name="0.4.0"></a>
 # [0.4.0](https://github.com/denouche/virtual-assistant-plugin-hello-world/compare/v0.3.0...v0.4.0) (2017-01-08)
 
