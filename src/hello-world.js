@@ -1,6 +1,4 @@
-const AssistantFeature = require('virtual-assistant').AssistantFeature,
-    SlackService = require('virtual-assistant').SlackService;
-
+const AssistantFeature = require('virtual-assistant').AssistantFeature;
 
 class HelloWorld extends AssistantFeature {
 
@@ -41,7 +39,7 @@ class HelloWorld extends AssistantFeature {
     }
 
     handle(message, context) {
-        let answer = 'Bonjour ' + SlackService.getDataStore().getUserById(this.context.userId).name + ', que puis-je pour vous ?\nPour savoir ce que je peux faire pour vous, dites "aide" ou "help"';
+        let answer = 'Bonjour ' + this.interface.getDataStore().getUserById(this.context.userId).name + ', que puis-je pour vous ?\nPour savoir ce que je peux faire pour vous, dites "aide" ou "help"';
         this.send(answer);
     }
 
